@@ -17,7 +17,7 @@ code {
 }
 
 :root {
-  --logo: url('../../public/images/color logo.png');
+  --logo: url("../../src/images/color logo.png");
   --primary-color: #fff;
   --secondary-color: whitesmoke;
   --button-color: #e59560;
@@ -81,10 +81,10 @@ code {
   color: var(--text-color);
 }
 
-#nav--item .active {
+#nav--item .active1 {
   font-weight: bold;
   text-decoration: none;
-  color: var(--button-color);
+  /*color: var(--button-color);*/
 }
 
 .nav--link {
@@ -291,7 +291,6 @@ code {
   border-style: none;
   border-radius: 0 25px 25px 25px;
   box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.1), 0 30px 25px 0 rgba(0, 0, 0, 0.1);
-
 }
 
 .Read--more:hover {
@@ -1199,7 +1198,7 @@ section {
 .background{
   position: absolute;
   height: 100vh;
-  background: url("../../src/components/images/1311315.jpeg") center center;
+  background: url("../../src/images/1311315.jpeg") center center;
 }
 
 .admin-login-heading {
@@ -2191,4 +2190,62 @@ section {
   .footer-copyright {
     font-size: 8px;
   }
+
+  /*Admin login */
+  .background {
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .admin-login-heading {
+    font-size: 30px;
+  }
+
+  .admin-login {
+    text-align: center;
+    margin: 140px 20px 20px 20px;
+    padding: 30px 20px;
+  }
+
+  .text-box {
+    width: 90%;
+    height: 50px;
+    padding: 10px;
+    margin: 20px;
+  }
+
+  .login-btn {
+    margin-top: 20px;
+    border-radius: 8px;
+    width: 140px;
+    height: 45px;
+    border-style: none;
+    padding: 0;
+    margin-bottom: 30px;
+    background: rgb(174, 238, 216);
+    background: linear-gradient(294deg, rgba(174, 238, 216, 1) 0%, rgba(24, 182, 193, 1) 100%);
+    font-weight: bold;
+    color: white;
+  }
+
+  /*.login-btn:hover{*/
+  /*    font-weight: bold;*/
+  /*    color: white;*/
+  /*    background: rgb(174, 238, 216);*/
+  /*    background: linear-gradient(294deg, rgba(174, 238, 216, 1) 0%, rgba(12, 96, 102, 1) 100%);*/
+  /*}*/
+
+  /*.errors{*/
+  /*    color: #ff0f0f;*/
+  /*    display: grid;*/
+  /*}*/
+
+  /*admin signing*/
+
+  .admin-signing {
+    text-align: center;
+    margin: 140px 20px 20px 20px;
+    padding: 30px 20px;
+  }
+
 }

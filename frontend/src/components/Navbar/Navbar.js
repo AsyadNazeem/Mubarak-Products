@@ -89,7 +89,7 @@ class Navbar extends Component {
                     </motion.div>
                     <motion.div variants={stagger}>
                         <motion.ul variants={header} id="nav--item"
-                                   className={this.state.clicked ? "#nav--item active" : "#nav--item"}>
+                                   className={this.state.clicked ? "#nav--item active1" : "#nav--item"}>
                             <NavLink to='/' className='links'>
                                 <li className="nav--link">Home</li>
                             </NavLink>

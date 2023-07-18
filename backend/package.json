@@ -4,15 +4,27 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
   },
+
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@iconscout/unicons": "^4.0.8",
     "axios": "^1.4.0",
     "cors": "^2.8.5",
     "express": "^4.18.2",
-    "mongoose": "^7.3.4"
+    "formik": "^2.4.2",
+    "mongoose": "^7.3.0",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.22",
+    "react-hooks": "^1.0.1",
+    "react-router-dom": "^6.13.0",
+    "react-table": "^7.8.0",
+    "sql": "^0.78.0",
+    "switch": "^0.0.0",
+    "yup": "^1.2.0"
   }
 }

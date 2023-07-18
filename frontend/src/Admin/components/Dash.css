@@ -101,7 +101,7 @@
     width: 2em;
 }
 
-.active2 {
+.active{
     background-color: var(--activeItem);
     border-radius: 0.7rem;
     font-weight: bold;
